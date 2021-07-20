@@ -1,0 +1,17 @@
+scale 5
+background black
+stroke red
+noFill
+	2 times
+		rotate time / 20
+		ball
+		rotate 0, 1, 1
+		ball
+scale 0.2
+stroke 
+noFill
+10 times
+	rotate time /5
+	box
+	move 0.01,0.07,0.1
+
